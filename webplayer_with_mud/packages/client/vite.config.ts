@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     port: 3004,
     headers:{
-      "Cache-Control" : 'public,max-age=31536000,must-revalidate'
+      "Cache-Control" : 'public, max-age=9999999999, must-revalidate'
     },
     fs: {
       strict: false,
