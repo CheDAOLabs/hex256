@@ -29,7 +29,7 @@ After each battle, points will be earned and the battle points will enter the ra
 
 Users can use currency to purchase random card packs, which have a chance to issue rare cards
 
-play the demo: https://hex256.chedao.io/ 
+play the demo: https://project-tcg.chedao.io
 
 run local chain:
 ```bash
