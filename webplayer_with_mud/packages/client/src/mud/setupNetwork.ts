@@ -47,8 +47,11 @@ export async function setupNetwork() {
     }
 
     //redstone
-    websocket_url = "wss://rpc.holesky.redstone.xyz/ws"
-    api_url = "https://rpc.holesky.redstone.xyz"
+    if(networkConfig.chainId===17001) {
+         websocket_url = "wss://rpc.holesky.redstone.xyz/ws"
+         api_url = "https://rpc.holesky.redstone.xyz"
+    }
+
 
     const clientOptions = {
         chain: networkConfig.chain,
