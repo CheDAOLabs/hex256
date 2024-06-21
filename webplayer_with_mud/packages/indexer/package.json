@@ -1,0 +1,14 @@
+{
+  "name": "indexer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "RPC_HTTP_URL=https://rpc.holesky.redstone.xyz STORE_ADDRESS=0x300ed8196e2687ef8814bc09d8bc1972d594036f START_BLOCK=6418381 ./node_modules/@latticexyz/store-indexer/dist/bin/sqlite-indexer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@latticexyz/store-indexer": "^2.0.12"
+  }
+}

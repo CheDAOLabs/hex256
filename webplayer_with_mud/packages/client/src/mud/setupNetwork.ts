@@ -100,6 +100,7 @@ export async function setupNetwork() {
         address: networkConfig.worldAddress as Hex,
         publicClient,
         startBlock: BigInt(networkConfig.initialBlockNumber),
+        indexerUrl: "http://44.214.29.84:3001/trpc"
     });
 
     /*

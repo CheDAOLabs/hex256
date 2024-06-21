@@ -1,6 +1,6 @@
-abstract contract ERC404 is Ownable {
-    using ERC20Events for address;
-    using ERC721Events for address;
+abstract contract ERC404 {
+//    using ERC20Events for address;
+//    using ERC721Events for address;
 
     // Errors
     error NotFound();
@@ -49,3 +49,4 @@ abstract contract ERC404 is Ownable {
 
     /// @dev Addresses whitelisted from minting / burning for gas savings (pairs, routers, etc)
     mapping(address => bool) public whitelist;
+}
